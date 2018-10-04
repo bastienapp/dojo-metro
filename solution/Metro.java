@@ -1,6 +1,6 @@
 class Metro {
 
-    public static int count (int metro [], int max, int waiting) {
+    public static int count(int[] metro, int max, int waiting) {
         int nbEntree = 0;
         for (int i = 0; i < metro.length && waiting >= 0; i++) {
             int cap = max - metro[i]; // places restantes
